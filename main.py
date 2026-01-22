@@ -42,6 +42,16 @@ def students_classification(e):
     elif classification >= 65:
         display(f'Perugia II', target='output')
 
+    elif classification < 65:
+        display(f'Type an appropriate number!', target='output')
+
+    elif classification > 100:
+        display(f'Type an appropriate number!', target='output')
+
     else:
         display(f'Invalid number', target='output')
+
+    
+
+
 
